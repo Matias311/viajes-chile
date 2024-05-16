@@ -39,7 +39,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 1rem;
+  height: 50vh;
+}
+
+.quienes-somos h2 {
+  padding-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.quienes-somos p {
+  font-family: "Poppins", sans-serif;
+  padding-top: 5px;
 }
 
 .quienes-somos-container {
@@ -61,6 +73,7 @@ body {
   text-align: center;
   background-color: #09929c;
   width: 100%;
+  padding: 0.5rem;
 }
 
 /* Destacados */
@@ -70,14 +83,22 @@ body {
   align-items: center;
   background-color: #000000;
   padding: 2rem;
+  margin-bottom: 2rem;
+  height: 50vh;
 }
 
 .destacados h2 {
   color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 2rem;
 }
 
 .card {
   border-width: 0px;
+}
+
+.card img {
+  height: 200px;
 }
 
 .container-cards {
@@ -90,16 +111,32 @@ body {
   background-color: #09929c;
 }
 
+.card-body p {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
 /* CONTACTO */
 .contacto {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  padding: 2.5rem;
+  height: 50vh;
+  margin-bottom: 2rem;
 }
 
 .contacto h2 {
   text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contacto form div label {
+  font-family: "Poppins", sans-serif;
+}
+
+.contacto form button {
+  font-family: "Poppins", sans-serif;
 }
 
 /* FOOTER */
@@ -111,6 +148,10 @@ footer {
   background-color: #09929c;
 }
 
+footer h3 {
+  font-family: "Poppins", sans-serif;
+}
+
 footer div {
   display: flex;
   gap: 10px;
@@ -120,11 +161,22 @@ footer div {
 /* RESPONSIVE */
 
 @media (max-width: 800px) {
-  .navbar{
+  .navbar {
     position: static;
   }
+
+  .quienes-somos {
+    margin: 15% 0%;
+    height: 100%;
+  }
+
   .quienes-somos-container {
     flex-wrap: wrap;
+  }
+
+  .destacados {
+    height: 100%;
+    margin: 15% 0%;
   }
 
   .quienes-somos-container div {
@@ -137,5 +189,9 @@ footer div {
 
   .container-cards {
     flex-wrap: wrap;
+  }
+
+  .contacto {
+    height: 70vh;
   }
 }
