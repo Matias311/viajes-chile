@@ -1,0 +1,115 @@
+body {
+  scroll-behavior: smooth;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+  width: 100%;
+}
+
+.container-fluid h1 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-link {
+  justify-content: end;
+  padding-right: 1rem;
+}
+
+.navbar-nav a {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* SLIDER */
+.slider {
+  box-shadow: inset 0em 1em #09929c;
+}
+
+/* QUIENES SOMOS */
+.quienes-somos {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.quienes-somos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quienes-somos-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  text-align: center;
+  background-color: #09929c;
+  width: 100%;
+}
+
+/* Destacados */
+.destacados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  padding: 2rem;
+}
+
+.destacados h2 {
+  color: #ffffff;
+}
+
+.card {
+  border-width: 0px;
+}
+
+.container-cards {
+  display: flex;
+}
+
+.card-body {
+  background-color: #09929c;
+}
+
+/* CONTACTO */
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.contacto h2 {
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  background-color: #09929c;
+}
+
+footer div {
+  display: flex;
+  gap: 10px;
+  font-size: 2rem;
+}
