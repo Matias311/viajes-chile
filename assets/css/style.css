@@ -46,6 +46,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .quienes-somos-container div {
@@ -81,6 +82,8 @@ body {
 
 .container-cards {
   display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .card-body {
@@ -112,4 +115,27 @@ footer div {
   display: flex;
   gap: 10px;
   font-size: 2rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+  .navbar{
+    position: static;
+  }
+  .quienes-somos-container {
+    flex-wrap: wrap;
+  }
+
+  .quienes-somos-container div {
+    margin: 20px 0px;
+  }
+
+  .quienes-somos-container div .icon {
+    margin: 0px;
+  }
+
+  .container-cards {
+    flex-wrap: wrap;
+  }
 }
