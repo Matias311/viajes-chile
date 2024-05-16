@@ -34,10 +34,10 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="scroll">
     <!-- HEADER > NAVBAR -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img src="./assets/img/viajes.svg" alt="logo" width="50px"
@@ -54,9 +54,12 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div
+            class="collapse navbar-collapse navbar-link"
+            id="navbarNavAltMarkup"
+          >
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
               <a class="nav-link" href="#">Quienes Somos</a>
               <a class="nav-link" href="#">Destacados</a>
               <a class="nav-link" href="#">Contacto</a>
@@ -136,92 +139,98 @@
       </section>
       <!-- MAIN > QUIENES SOMOS -->
       <section class="quienes-somos">
-        <div>
-          <div class="icon">
-            <i class="fa-solid fa-plane"></i>
-          </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Accusantium ipsum nesciunt unde maxime mollitia totam molestiae ex
-            repudiandae quasi vel repellendus odio, laborum quisquam optio
-            cumque non sunt illum aut?
-          </p>
-        </div>
-        <div>
+        <h2>QUIENES SOMOS?</h2>
+        <div class="quienes-somos-container">
           <div>
-            <i class="fa-solid fa-mountain"></i>
+            <div class="icon">
+              <i class="fa-solid fa-plane"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium ipsum nesciunt unde maxime mollitia totam molestiae ex
+              repudiandae quasi vel repellendus odio, laborum quisquam optio
+              cumque non sunt illum aut?
+            </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            voluptatem deserunt ipsum aut omnis vel nobis modi hic quis commodi,
-            in sapiente placeat nihil molestiae! Quo necessitatibus aspernatur
-            similique autem.
-          </p>
-        </div>
-        <div>
           <div>
-            <i class="fa-solid fa-route"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus voluptatem deserunt ipsum aut omnis vel nobis modi hic
+              quis commodi, in sapiente placeat nihil molestiae! Quo
+              necessitatibus aspernatur similique autem.
+            </p>
+            <div class="icon">
+              <i class="fa-solid fa-mountain"></i>
+            </div>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            voluptatem deserunt ipsum aut omnis vel nobis modi hic quis commodi,
-            in sapiente placeat nihil molestiae! Quo necessitatibus aspernatur
-            similique autem.
-          </p>
+          <div>
+            <div class="icon">
+              <i class="fa-solid fa-route"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus voluptatem deserunt ipsum aut omnis vel nobis modi hic
+              quis commodi, in sapiente placeat nihil molestiae! Quo
+              necessitatibus aspernatur similique autem.
+            </p>
+          </div>
         </div>
       </section>
       <!-- MAIN > DESTACADOS -->
       <section class="destacados">
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/card1.jpg"
-            class="card-img-top"
-            alt="sur de chile"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+        <h2>Destacados</h2>
+        <div class="container-cards">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/card1.jpg"
+              class="card-img-top"
+              alt="sur de chile"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/card2.jpg"
-            class="card-img-top"
-            alt="sur de chile"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/card2.jpg"
+              class="card-img-top"
+              alt="sur de chile"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/card3.jpg"
-            class="card-img-top"
-            alt="sur de chile"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/card3.jpg"
+              class="card-img-top"
+              alt="sur de chile"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/card4.jpg"
-            class="card-img-top"
-            alt="bosque de chile"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/card4.jpg"
+              class="card-img-top"
+              alt="bosque de chile"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -231,7 +240,7 @@
         <form>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
+              >Correo Electronico</label
             >
             <input
               type="email"
@@ -239,19 +248,26 @@
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
             />
-            <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
-            </div>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label"
-              >Password</label
+              >Contraseña</label
             >
             <input
               type="password"
               class="form-control"
               id="exampleInputPassword1"
             />
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
