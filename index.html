@@ -26,6 +26,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- FONT AWESOME -->
@@ -39,10 +45,11 @@
     <header>
       <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img src="./assets/img/viajes.svg" alt="logo" width="50px"
-          /></a>
-          <h1>Viajes Chile</h1>
+          <h1 class="navbar-brand">
+            <img src="./assets/img/viajes.svg" alt="logo" width="50px" />Viajes
+            Chile
+          </h1>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -139,7 +146,7 @@
       </section>
       <!-- MAIN > QUIENES SOMOS -->
       <section class="quienes-somos">
-        <h2>QUIENES SOMOS?</h2>
+        <h2>¿QUIÉNES SOMOS?</h2>
         <div class="quienes-somos-container">
           <div>
             <div class="icon">
@@ -178,9 +185,17 @@
       </section>
       <!-- MAIN > DESTACADOS -->
       <section class="destacados">
-        <h2>Destacados</h2>
+        <h2>DESTACADOS</h2>
         <div class="container-cards">
-          <div class="card" style="width: 18rem">
+          <div
+            class="card"
+            style="width: 18rem"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip"
+            data-bs-title="Mas informacion sobre el lugar"
+            id="card"
+          >
             <img
               src="./assets/img/card1.jpg"
               class="card-img-top"
@@ -193,7 +208,15 @@
               </p>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div
+            class="card"
+            style="width: 18rem"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip"
+            data-bs-title="Mas informacion sobre el lugar"
+            id="card2"
+          >
             <img
               src="./assets/img/card2.jpg"
               class="card-img-top"
@@ -206,7 +229,15 @@
               </p>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div
+            class="card"
+            style="width: 18rem"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip"
+            data-bs-title="Mas informacion sobre el lugar"
+            id="card3"
+          >
             <img
               src="./assets/img/card3.jpg"
               class="card-img-top"
@@ -219,7 +250,15 @@
               </p>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div
+            class="card"
+            style="width: 18rem"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip"
+            data-bs-title="Mas informacion sobre el lugar"
+            id="card4"
+          >
             <img
               src="./assets/img/card4.jpg"
               class="card-img-top"
@@ -269,7 +308,7 @@
               ></textarea>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
       </section>
     </main>

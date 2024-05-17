@@ -14,7 +14,10 @@ body {
 
 .container-fluid h1 {
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  opacity: 0.8;
 }
 
 .navbar-link {
@@ -83,14 +86,14 @@ body {
   align-items: center;
   background-color: #000000;
   padding: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 10%;
   height: 50vh;
 }
 
 .destacados h2 {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-  padding-bottom: 2rem;
+  padding-bottom: 5%;
 }
 
 .card {
@@ -114,6 +117,7 @@ body {
 .card-body p {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
+  padding: 5px;
 }
 
 /* CONTACTO */
@@ -149,12 +153,20 @@ footer {
 }
 
 footer h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  opacity: 0.8;
 }
 
 footer div {
   display: flex;
+  align-items: center;
   gap: 10px;
+  font-size: 2rem;
+}
+
+footer div i {
   font-size: 2rem;
 }
 
